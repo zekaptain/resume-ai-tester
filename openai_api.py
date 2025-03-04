@@ -26,6 +26,3 @@ class OpenAIAPI:
         )
 
         return response.choices[0].message.content.strip()
-# print(completion.choices[0].text)
-# print(dict(completion).get('usage'))
-# print(completion.model_dump_json(indent=2))
